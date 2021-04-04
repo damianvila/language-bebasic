@@ -1,0 +1,28 @@
+{
+  "name": "language-bebasic",
+  "version": "0.1",
+  "description": "Basic Engine BASIC language support in Atom",
+  "author": "Damian Vila Rio <dmian73@icloud.com>",
+  "license": "MIT",
+  "homepage": "https://atom.io/packages/language-bebasic",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/damianvila/language-bebasic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/damianvila/language-bebasic/issues"
+  },
+  "keywords": [
+    "Atom",
+    "package",
+    "language",
+    "basic",
+    "engine",
+    "syntax",
+    "highlight"
+  ],
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}
