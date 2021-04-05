@@ -30,12 +30,6 @@
     'match': ':|;|=|\\+|-|\\*|/|\\^|\\?|!|\\[|\\]|"|&|<|>|\\\\|@|_'
     'name': 'keyword.operator.bebasic'
   }
-# { # functions
-#   'match': '\\b([A-Z]+\\$?)\\s*\\([^)]+\\)'
-#   'captures':
-#     '1':
-#       'name': 'entity.name.function.bebasic'
-# }
   { # functions without arguments are invalid
     'match': '\\b([A-Z]+\\$?)\\s*\\(\\)'
     'name': 'invalid.illegal.bebasic'
