@@ -4,328 +4,328 @@
 'patterns': [
   { # lines that do not begin with a line number are marked invalid
     'match': '^\\D+'
-    'name': 'invalid.illegal.cbmbasic'
+    'name': 'invalid.illegal.bebasic'
   }
   { # numeric constants, which may include scientific notation
     'match': '(^\\d+)|(\\b(([0-9]+(\\.|\\s*E\\s*)?[0-9]*)|(\\.[0-9]+))\\b)'
     'captures':
       '1':
-        'name': 'markup.bold.cbmbasic'
+        'name': 'markup.bold.bebasic'
       '2':
-        'name': 'constant.numeric.cbmbasic'
-    'name': 'meta.constant.cbmbasic'
+        'name': 'constant.numeric.bebasic'
+    'name': 'meta.constant.bebasic'
   }
   { # strings
     'match': '(")([^"]*(")|.*\\n|.*$)'
     'captures':
       '1':
-        'name': 'punctuation.definition.string.begin.cbmbasic'
+        'name': 'punctuation.definition.string.begin.bebasic'
       '2':
-        'name': 'string.quoted.double.cbmbasic'
+        'name': 'string.quoted.double.bebasic'
       '3':
-        'name': 'punctuation.definition.string.begin.cbmbasic'
-    'name': 'meta.string.quoted.double.cbmbasic'
+        'name': 'punctuation.definition.string.begin.bebasic'
+    'name': 'meta.string.quoted.double.bebasic'
   }
   { # operators
     'match': ':|;|=|\\+|-|\\*|/|\\^|\\?|!|\\[|\\]|"|&|<|>|\\\\|@|_'
-    'name': 'keyword.operator.cbmbasic'
+    'name': 'keyword.operator.bebasic'
   }
 # { # functions
 #   'match': '\\b([A-Z]+\\$?)\\s*\\([^)]+\\)'
 #   'captures':
 #     '1':
-#       'name': 'entity.name.function.cbmbasic'
+#       'name': 'entity.name.function.bebasic'
 # }
   { # functions without arguments are invalid
     'match': '\\b([A-Z]+\\$?)\\s*\\(\\)'
-    'name': 'invalid.illegal.cbmbasic'
+    'name': 'invalid.illegal.bebasic'
   }
   { # ABS function
     'match': '\\b(ABS)\\b'
-    'name': 'entity.name.function.cbmbasic'
+    'name': 'entity.name.function.bebasic'
   }
   { # AND operator
     'match': '\\b(AND)'
-    'name': 'keyword.operator.cbmbasic'
+    'name': 'keyword.operator.bebasic'
   }
   { # ASC function
     'match': '\\b(ASC)\\b'
-    'name': 'entity.name.function.cbmbasic'
+    'name': 'entity.name.function.bebasic'
   }
   { # ATN function
     'match': '\\b(ATN)\\b'
-    'name': 'entity.name.function.cbmbasic'
+    'name': 'entity.name.function.bebasic'
   }
   { # CHR$ function
     'match': '\\b(CHR(\\$|\\b))'
-    'name': 'entity.name.function.cbmbasic'
+    'name': 'entity.name.function.bebasic'
   }
   { # CLOSE command
     'match': '\\b(CLOSE)'
-    'name': 'keyword.control.cbmbasic'
+    'name': 'keyword.control.bebasic'
   }
   { # CLR command
     'match': '\\b(CLR)'
-    'name': 'keyword.control.cbmbasic'
+    'name': 'keyword.control.bebasic'
   }
   { # CMD command
     'match': '\\b(CMD)'
-    'name': 'keyword.control.cbmbasic'
+    'name': 'keyword.control.bebasic'
   }
   { # CONT command
     'match': '\\b(CONT)'
-    'name': 'keyword.control.cbmbasic'
+    'name': 'keyword.control.bebasic'
   }
   { # COS function
     'match': '\\b(COS)\\b'
-    'name': 'entity.name.function.cbmbasic'
+    'name': 'entity.name.function.bebasic'
   }
   { # DATA command
     'match': '\\b(DATA)'
-    'name': 'keyword.control.cbmbasic'
+    'name': 'keyword.control.bebasic'
   }
   { # DEF command
     'match': '\\b(DEF)'
-    'name': 'keyword.control.cbmbasic'
+    'name': 'keyword.control.bebasic'
   }
   { # DIM command
     'match': '\\b(DIM)'
-    'name': 'keyword.control.cbmbasic'
+    'name': 'keyword.control.bebasic'
   }
   { # END command
     'match': '\\b(END)'
-    'name': 'keyword.control.cbmbasic'
+    'name': 'keyword.control.bebasic'
   }
   { # EXP function
     'match': '\\b(EXP)\\b'
-    'name': 'entity.name.function.cbmbasic'
+    'name': 'entity.name.function.bebasic'
   }
   { # FN function
     'match': '\\b(FN)'
-    'name': 'entity.name.function.cbmbasic'
+    'name': 'entity.name.function.bebasic'
   }
   { # FOR command
     'match': '\\b(FOR)'
-    'name': 'keyword.control.cbmbasic'
+    'name': 'keyword.control.bebasic'
   }
   { # FRE function
     'match': '\\b(FRE)\\b'
-    'name': 'entity.name.function.cbmbasic'
+    'name': 'entity.name.function.bebasic'
   }
   { # GET command
     'match': '\\b(GET)'
-    'name': 'keyword.control.cbmbasic'
+    'name': 'keyword.control.bebasic'
   }
   { # GET# command
     'match': '\\b(GET#)'
-    'name': 'keyword.control.cbmbasic'
+    'name': 'keyword.control.bebasic'
   }
   { # GOSUB command
     'match': '\\b(GOSUB)'
-    'name': 'keyword.control.cbmbasic'
+    'name': 'keyword.control.bebasic'
   }
   { # GOTO command
     'match': '\\b(GO(\\s*)?TO)'
-    'name': 'keyword.control.cbmbasic'
+    'name': 'keyword.control.bebasic'
   }
   { # IF command
     'match': '\\b(IF)'
-    'name': 'keyword.control.cbmbasic'
+    'name': 'keyword.control.bebasic'
   }
   { # INPUT command
     'match': '\\b(INPUT)'
-    'name': 'keyword.control.cbmbasic'
+    'name': 'keyword.control.bebasic'
   }
   { # INPUT# command
     'match': '\\b(INPUT#)'
-    'name': 'keyword.control.cbmbasic'
+    'name': 'keyword.control.bebasic'
   }
   { # INT function
     'match': '\\b(INT)\\b'
-    'name': 'entity.name.function.cbmbasic'
+    'name': 'entity.name.function.bebasic'
   }
   { # LEFT$ function
     'match': '\\b(LEFT(\\$|\\b))'
-    'name': 'entity.name.function.cbmbasic'
+    'name': 'entity.name.function.bebasic'
   }
   { # LEN function
     'match': '\\b(LEN)\\b'
-    'name': 'entity.name.function.cbmbasic'
+    'name': 'entity.name.function.bebasic'
   }
   { # LET command
     'match': '\\b(LET)'
-    'name': 'keyword.control.cbmbasic'
+    'name': 'keyword.control.bebasic'
   }
   { # LIST command
     'match': '\\b(LIST)'
-    'name': 'keyword.control.cbmbasic'
+    'name': 'keyword.control.bebasic'
   }
   { # LOAD command
     'match': '\\b(LOAD)'
-    'name': 'keyword.control.cbmbasic'
+    'name': 'keyword.control.bebasic'
   }
   { # LOG function
     'match': '\\b(LOG)\\b'
-    'name': 'entity.name.function.cbmbasic'
+    'name': 'entity.name.function.bebasic'
   }
   { # MID$ function
     'match': '\\b(MID(\\$|\\b))'
-    'name': 'entity.name.function.cbmbasic'
+    'name': 'entity.name.function.bebasic'
   }
   { # NEW command
     'match': '\\b(NEW)'
-    'name': 'keyword.control.cbmbasic'
+    'name': 'keyword.control.bebasic'
   }
   { # NEXT command
     'match': '\\b(NEXT)'
-    'name': 'keyword.control.cbmbasic'
+    'name': 'keyword.control.bebasic'
   }
   { # NOT operator
     'match': '\\b(NOT)'
-    'name': 'keyword.operator.cbmbasic'
+    'name': 'keyword.operator.bebasic'
   }
   { # ON command
     'match': '\\b(ON)'
-    'name': 'keyword.control.cbmbasic'
+    'name': 'keyword.control.bebasic'
   }
   { # OPEN command
     'match': '\\b(OPEN)'
-    'name': 'keyword.control.cbmbasic'
+    'name': 'keyword.control.bebasic'
   }
   { # OR operator
     'match': '\\b(OR)'
-    'name': 'keyword.operator.cbmbasic'
+    'name': 'keyword.operator.bebasic'
   }
   { # PEEK function
     'match': '\\b(PEEK)\\b'
-    'name': 'entity.name.function.cbmbasic'
+    'name': 'entity.name.function.bebasic'
   }
   { # POKE command
     'match': '\\b(POKE)'
-    'name': 'keyword.control.cbmbasic'
+    'name': 'keyword.control.bebasic'
   }
   { # POS function
     'match': '\\b(POS)\\b'
-    'name': 'entity.name.function.cbmbasic'
+    'name': 'entity.name.function.bebasic'
   }
   { # PRINT command
     'match': '\\b(PRINT)'
-    'name': 'keyword.control.cbmbasic'
+    'name': 'keyword.control.bebasic'
   }
   { # PRINT# command
     'match': '\\b(PRINT#)'
-    'name': 'keyword.control.cbmbasic'
+    'name': 'keyword.control.bebasic'
   }
   { # READ command
     'match': '\\b(READ)'
-    'name': 'keyword.control.cbmbasic'
+    'name': 'keyword.control.bebasic'
   }
   { # REM command (comments)
     'match': '(REM.*(\\n|$))'
-    'name': 'comment.line.cbmbasic'
+    'name': 'comment.line.bebasic'
   }
   { # RESTORE command
     'match': '\\b(RESTORE)'
-    'name': 'keyword.control.cbmbasic'
+    'name': 'keyword.control.bebasic'
   }
   { # RETURN command
     'match': '\\b(RETURN)'
-    'name': 'keyword.control.cbmbasic'
+    'name': 'keyword.control.bebasic'
   }
   { # RIGHT$ function
     'match': '\\b(RIGHT(\\$|\\b))'
-    'name': 'entity.name.function.cbmbasic'
+    'name': 'entity.name.function.bebasic'
   }
   { # RND function
     'match': '\\b(RND)\\b'
-    'name': 'entity.name.function.cbmbasic'
+    'name': 'entity.name.function.bebasic'
   }
   { # RUN command
     'match': '\\b(RUN)'
-    'name': 'keyword.control.cbmbasic'
+    'name': 'keyword.control.bebasic'
   }
   { # SAVE command
     'match': '\\b(SAVE)'
-    'name': 'keyword.control.cbmbasic'
+    'name': 'keyword.control.bebasic'
   }
   { # SGN function
     'match': '\\b(SGN)\\b'
-    'name': 'entity.name.function.cbmbasic'
+    'name': 'entity.name.function.bebasic'
   }
   { # SIN function
     'match': '\\b(SIN)\\b'
-    'name': 'entity.name.function.cbmbasic'
+    'name': 'entity.name.function.bebasic'
   }
   { # SPC function
     'match': '\\b(SPC)\\b'
-    'name': 'entity.name.function.cbmbasic'
+    'name': 'entity.name.function.bebasic'
   }
   { # SQR function
     'match': '\\b(SQR)\\b'
-    'name': 'entity.name.function.cbmbasic'
+    'name': 'entity.name.function.bebasic'
   }
   { # STATUS system variable
     'match': '\\b(STATUS)'
-    'name': 'variable.language.cbmbasic'
+    'name': 'variable.language.bebasic'
   }
   { # ST system variable
     'match': '\\b(ST)[^$%]'
-    'name': 'variable.language.cbmbasic'
+    'name': 'variable.language.bebasic'
   }
   { # STEP command
     'match': '\\b(STEP)'
-    'name': 'keyword.control.cbmbasic'
+    'name': 'keyword.control.bebasic'
   }
   { # STOP command
     'match': '\\b(STOP)'
-    'name': 'keyword.control.cbmbasic'
+    'name': 'keyword.control.bebasic'
   }
   { # STR$ function
     'match': '\\b(STR(\\$|\\b))'
-    'name': 'entity.name.function.cbmbasic'
+    'name': 'entity.name.function.bebasic'
   }
   { # SYS command
     'match': '\\b(SYS)'
-    'name': 'keyword.control.cbmbasic'
+    'name': 'keyword.control.bebasic'
   }
   { # TAB function
     'match': '\\b(TAB)\\b'
-    'name': 'entity.name.function.cbmbasic'
+    'name': 'entity.name.function.bebasic'
   }
   { # TAN function
     'match': '\\b(TAN)\\b'
-    'name': 'entity.name.function.cbmbasic'
+    'name': 'entity.name.function.bebasic'
   }
   { # THEN command
     'match': '\\b(THEN)'
-    'name': 'keyword.control.cbmbasic'
+    'name': 'keyword.control.bebasic'
   }
   { # TIME/TIME$ system variables
     'match': '\\b(TIME(\\$|\\b))'
-    'name': 'variable.language.cbmbasic'
+    'name': 'variable.language.bebasic'
   }
   { # TI/TI$ system variables
     'match': '\\b(TI(\\$|\\b))'
-    'name': 'variable.language.cbmbasic'
+    'name': 'variable.language.bebasic'
   }
   { # TO command
     'match': '\\b(TO)'
-    'name': 'keyword.control.cbmbasic'
+    'name': 'keyword.control.bebasic'
   }
   { # USR function
     'match': '\\b(USR)\\b'
-    'name': 'entity.name.function.cbmbasic'
+    'name': 'entity.name.function.bebasic'
   }
   { # VAL function
     'match': '\\b(VAL)\\b'
-    'name': 'entity.name.function.cbmbasic'
+    'name': 'entity.name.function.bebasic'
   }
   { # VERIFY command
     'match': '\\b(VERIFY)'
-    'name': 'keyword.control.cbmbasic'
+    'name': 'keyword.control.bebasic'
   }
   { # WAIT command
     'match': '\\b(WAIT)'
-    'name': 'keyword.control.cbmbasic'
+    'name': 'keyword.control.bebasic'
   }
 ]
