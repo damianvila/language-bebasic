@@ -6,6 +6,7 @@ Based on [Atom BASIC syntax highlighting for the C64](https://atom.io/packages/l
 ![BASIC Engine Syntax Highlight](https://damianvila.com/basicengine/bebasic-syntax.png)
 
 This syntax highlighter supports the BASIC available in the [BASIC Engine](http://basicengine.org/) Single Board Computer.
+Contributions are welcome.
 
 ## What is the BASIC Engine computer?
 
