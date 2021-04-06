@@ -3,6 +3,8 @@
 Syntax Highlight for [BASIC Engine BASIC](http://basicengine.org/manual.html) for the [Atom Editor](https://atom.io).
 Based on [Atom BASIC syntax highlighting for the C64](https://atom.io/packages/language-cbmbasic) by [Steven J. Syrek](https://github.com/sjsyrek).
 
+![BASIC Engine Syntax Highlight](https://damianvila.com/basicengine/bebasic-syntax.png)
+
 This syntax highlighter supports the BASIC available in the [BASIC Engine](http://basicengine.org/) Single Board Computer.
 
 ## What is the BASIC Engine computer?

@@ -31,307 +31,311 @@
     'name': 'keyword.operator.bebasic'
   }
   { # AND operator
-    'match': '\\b((?i)AND)'
+    'match': '\\b(AND)'
     'name': 'keyword.operator.bebasic'
   }
   { # EOR operator
-    'match': '\\b((?i)EOR)'
+    'match': '\\b(EOR)'
     'name': 'keyword.operator.bebasic'
   }
   { # MOD operator
-    'match': '\\b((?i)MOD)'
+    'match': '\\b(MOD)'
     'name': 'keyword.operator.bebasic'
   }
   { # NOT operator
-    'match': '\\b((?i)NOT)'
+    'match': '\\b(NOT)'
     'name': 'keyword.operator.bebasic'
   }
   { # OR operator
-    'match': '\\b((?i)OR)'
+    'match': '\\b(OR)'
     'name': 'keyword.operator.bebasic'
   }
-  { # functions without arguments are invalid
-    'match': '\\b((?i)[A-Z]+\\$?)\\s*\\(\\)'
-    'name': 'invalid.illegal.bebasic'
-  }
+  # { # functions without arguments are invalid
+  #   'match': '\\b([A-Z]+\\$?)\\s*\\(\\)'
+  #   'name': 'invalid.illegal.bebasic'
+  # }
   { # ABS function
-    'match': '\\b((?i)ABS)\\b'
+    'match': '\\b(ABS)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # ANA function
-    'match': '\\b((?i)ANA)\\b'
+    'match': '\\b(ANA)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # APPEND function
-    'match': '\\b((?i)APPEND)\\b'
+    'match': '\\b(APPEND)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # ARG function
-    'match': '\\b((?i)ARG(\\$|C)?)\\b'
+    'match': '\\b(ARG(\\$|C)?)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # ATN function
-    'match': '\\b((?i)ATN(2)?)\\b'
+    'match': '\\b(ATN(2)?)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # BEEP function
-    'match': '\\b((?i)BEEP)\\b'
+    'match': '\\b(BEEP)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # BG function
-    'match': '\\b((?i)BG)\\b'
+    'match': '\\b(BG)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # BIN$ function
-    'match': '\\b((?i)BIN(\\$|\\b))'
+    'match': '\\b(BIN(\\$|\\b))'
     'name': 'entity.name.function.bebasic'
   }
   { # BLIT function
-    'match': '\\b((?i)BLIT)\\b'
+    'match': '\\b(BLIT)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # BLOAD function
-    'match': '\\b((?i)BLOAD)\\b'
+    'match': '\\b(BLOAD)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # BOOT function
-    'match': '\\b((?i)BOOT)\\b'
+    'match': '\\b(BOOT)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # BORDER function
-    'match': '\\b((?i)BORDER)\\b'
+    'match': '\\b(BORDER)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # BSAVE function
-    'match': '\\b((?i)BSAVE)\\b'
+    'match': '\\b(BSAVE)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # BSCR function
-    'match': '\\b((?i)BSCR(X|Y))\\b'
+    'match': '\\b(BSCR(X|Y))\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # CALL function
-    'match': '\\b((?i)CALL)\\b'
+    'match': '\\b(CALL)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # CHAIN function
-    'match': '\\b((?i)CHAIN)\\b'
+    'match': '\\b(CHAIN)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # CHAR function
-    'match': '\\b((?i)CHAR)\\b'
+    'match': '\\b(CHAR)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # CHR$ function
-    'match': '\\b((?i)CHR(\\$|\\b))'
+    'match': '\\b(CHR(\\$|\\b))'
     'name': 'entity.name.function.bebasic'
   }
   { # CHDIR function
-    'match': '\\b((?i)CHDIR)\\b'
+    'match': '\\b(CHDIR)\\b'
     'name': 'keyword.control.bebasic'
   }
   { # CIRCLE function
-    'match': '\\b((?i)CIRCLE)\\b'
+    'match': '\\b(CIRCLE)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # CLEAR function
-    'match': '\\b((?i)CLEAR)\\b'
+    'match': '\\b(CLEAR)\\b'
     'name': 'keyword.control.bebasic'
   }
   { # CLOSE function
-    'match': '\\b((?i)CLOSE)\\b'
+    'match': '\\b(CLOSE)\\b'
     'name': 'keyword.control.bebasic'
   }
   { # CLS function
-    'match': '\\b((?i)CLS)\\b'
+    'match': '\\b(CLS)\\b'
     'name': 'keyword.control.bebasic'
   }
   { # CMD function
-    'match': '\\b((?i)CMD)\\b'
+    'match': '\\b(CMD)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # COLOR function
-    'match': '\\b((?i)COLOR)\\b'
+    'match': '\\b(COLOR)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # COMPARE function
-    'match': '\\b((?i)COMPARE)\\b'
+    'match': '\\b(COMPARE)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # CONFIG function
-    'match': '\\b((?i)CONFIG( COLOR)?)\\b'
+    'match': '\\b(CONFIG( COLOR)?)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # CONT function
-    'match': '\\b((?i)CONT)\\b'
+    'match': '\\b(CONT)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # COPY function
-    'match': '\\b((?i)COPY)\\b'
+    'match': '\\b(COPY)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # COS function
-    'match': '\\b((?i)COS)\\b'
+    'match': '\\b(COS)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # CREDITS function
-    'match': '\\b((?i)CREDITS)\\b'
+    'match': '\\b(CREDITS)\\b'
     'name': 'keyword.control.bebasic'
   }
   { # CSCROLL function
-    'match': '\\b((?i)CSCROLL)\\b'
+    'match': '\\b(CSCROLL)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # CSIZE function
-    'match': '\\b((?i)CSIZE)\\b'
+    'match': '\\b(CSIZE)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # CWD$ function
-    'match': '\\b((?i)CWD(\\$|\\b))'
+    'match': '\\b(CWD(\\$|\\b))'
     'name': 'entity.name.function.bebasic'
   }
   { # DATA function
-    'match': '\\b((?i)DATA)\\b'
+    'match': '\\b(DATA)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # DATE function
-    'match': '\\b((?i)DATE)\\b'
+    'match': '\\b(DATE)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # DELETE function
-    'match': '\\b((?i)DELETE)\\b'
+    'match': '\\b(DELETE)\\b'
     'name': 'keyword.control.bebasic'
   }
   { # DIM function
-    'match': '\\b((?i)DIM)\\b'
+    'match': '\\b(DIM)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # DIR function
-    'match': '\\b((?i)DIR(\\$|\\b))'
+    'match': '\\b(DIR(\\$|\\b))'
     'name': 'entity.name.function.bebasic'
   }
   { # DO function
-    'match': '\\b((?i)DO)\\b'
+    'match': '\\b(DO)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # EDIT function
-    'match': '\\b((?i)EDIT)\\b'
+    'match': '\\b(EDIT)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # ELSE function
-    'match': '\\b((?i)ELSE)\\b'
+    'match': '\\b(ELSE)\\b'
     'name': 'keyword.control.bebasic'
   }
   { # END function
-    'match': '\\b((?i)END(IF)?)\\b'
+    'match': '\\b(END(IF)?)\\b'
     'name': 'keyword.control.bebasic'
   }
   { # EOF function
-    'match': '\\b((?i)EOF)\\b'
+    'match': '\\b(EOF)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # ERROR function
-    'match': '\\b((?i)ERROR((\\$)?|\\b))'
+    'match': '\\b(ERROR((\\$)?|\\b))'
     'name': 'entity.name.function.bebasic'
   }
   { # EXEC function
-    'match': '\\b((?i)EXEC)\\b'
+    'match': '\\b(EXEC)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # EXP function
-    'match': '\\b((?i)EXP)\\b'
+    'match': '\\b(EXP)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # FILES function
-    'match': '\\b((?i)FILES)\\b'
+    'match': '\\b(FILES)\\b'
     'name': 'keyword.control.bebasic'
   }
   { # FONT function
-    'match': '\\b((?i)FONT)\\b'
+    'match': '\\b(FONT)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # FOR function
-    'match': '\\b((?i)FOR)'
+    'match': '\\b(FOR)'
     'name': 'keyword.control.bebasic'
   }
   { # FORMAT function
-    'match': '\\b((?i)FORMAT)\\b'
+    'match': '\\b(FORMAT)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # FRAME function
-    'match': '\\b((?i)FRAME)\\b'
+    'match': '\\b(FRAME)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # FRAMESKIP function
-    'match': '\\b((?i)FRAMESKIP)\\b'
+    'match': '\\b(FRAMESKIP)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # FREE function
-    'match': '\\b((?i)FREE)\\b'
+    'match': '\\b(FREE)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # GET DATE TIME function
-    'match': '\\b((?i)GET( DATE| TIME))\\b'
+    'match': '\\b(GET( DATE| TIME))\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # GOSUB function
-    'match': '\\b((?i)GOSUB)\\b'
+    'match': '\\b(GOSUB)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # GOTO function
-    'match': '\\b((?i)GOTO)\\b'
+    'match': '\\b(GOTO)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # GPIN function
-    'match': '\\b((?i)GPIN)\\b'
+    'match': '\\b(GPIN)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # GPOUT function
-    'match': '\\b((?i)GPOUT)\\b'
+    'match': '\\b(GPOUT)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # GPRINT function
-    'match': '\\b((?i)GPRINT)\\b'
+    'match': '\\b(GPRINT)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # GSCROLL function
-    'match': '\\b((?i)GSCROLL)\\b'
+    'match': '\\b(GSCROLL)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # HEX$ function
-    'match': '\\b((?i)HEX(\\$|\\b))'
+    'match': '\\b(HEX(\\$|\\b))'
     'name': 'entity.name.function.bebasic'
   }
   { # I2C(R|W) function
-    'match': '\\b((?i)I2C(R|W))\\b'
+    'match': '\\b(I2C(R|W))\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # IF function
-    'match': '\\b((?i)IF)'
+    'match': '\\b(IF)'
     'name': 'keyword.control.bebasic'
   }
   { # INKEY function
-    'match': '\\b((?i)INKEY)\\b'
+    'match': '\\b(INKEY(\\$|\\b))'
     'name': 'entity.name.function.bebasic'
   }
   { # INPUT$ function
-    'match': '\\b((?i)INPUT(\\$|\\b))'
+    'match': '\\b(INPUT(\\$|\\b))'
     'name': 'entity.name.function.bebasic'
   }
   { # INST function
-    'match': '\\b((?i)INST(R|\\$)+|\\b)'
+    'match': '\\b(INST(\\$|\\b))'
+    'name': 'entity.name.function.bebasic'
+  }
+  { # INSTR function
+    'match': '\\b(INSTR)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # INT function
-    'match': '\\b((?i)INT)\\b'
+    'match': '\\b(INT)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # KEY function
-    'match': '\\b((?i)KEY)\\b'
+    'match': '\\b(KEY)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # LEFT$ function
-    'match': '\\b((?i)LEFT(\\$|\\b)'
+    'match': '\\b(LEFT(\\$|\\b))'
     'captures':
       '1':
         'name': 'entity.other.attribute-name.bebasic'
@@ -340,183 +344,187 @@
     'name': 'meta.entity.other.attribute-name.bebasic'
   }
   { # LET function
-    'match': '\\b((?i)LET)\\b'
+    'match': '\\b(LET)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # LEN function
-    'match': '\\b((?i)LEN)\\b'
+    'match': '\\b(LEN)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # LINE function
-    'match': '\\b((?i)LINE)\\b'
+    'match': '\\b(LINE)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # LOAD function
-    'match': '\\b((?i)LOAD( BG| PCX)?)\\b'
+    'match': '\\b(LOAD( BG| PCX)?)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # LOC function
-    'match': '\\b((?i)LOC)\\b'
+    'match': '\\b(LOC)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # LOCATE function
-    'match': '\\b((?i)LOCATE)\\b'
+    'match': '\\b(LOCATE)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # LOF function
-    'match': '\\b((?i)LOF)\\b'
+    'match': '\\b(LOF)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # LOG function
-    'match': '\\b((?i)LOG)\\b'
+    'match': '\\b(LOG)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # LOOP function
-    'match': '\\b((?i)LOOP)\\b'
+    'match': '\\b(LOOP)\\b'
     'name': 'keyword.control.bebasic'
   }
   { # MAP function
-    'match': '\\b((?i)MAP)\\b'
+    'match': '\\b(MAP)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # MERGE function
-    'match': '\\b((?i)MERGE)\\b'
+    'match': '\\b(MERGE)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # MID$ function
-    'match': '\\b((?i)MID(\\$|\\b))'
+    'match': '\\b(MID(\\$|\\b))'
     'name': 'entity.name.function.bebasic'
   }
   { # MKDIR function
-    'match': '\\b((?i)MKDIR)\\b'
+    'match': '\\b(MKDIR)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # MOVE function
-    'match': '\\b((?i)MOVE( BG| SPRITE))\\b'
+    'match': '\\b(MOVE( BG| SPRITE))\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # NEW function
-    'match': '\\b((?i)NEW)\\b'
+    'match': '\\b(NEW)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # NEXT function
-    'match': '\\b((?i)NEXT)\\b'
+    'match': '\\b(NEXT)\\b'
     'name': 'keyword.control.bebasic'
   }
   { # ON function
-    'match': '\\b((?i)ON( ERROR| GOSUB| GOTO| PAD| PLAY| SPRITE))\\b'
+    'match': '\\b(ON( ERROR| GOSUB| GOTO| PAD| PLAY| SPRITE))\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # OPEN function
-    'match': '\\b((?i)OPEN)\\b'
+    'match': '\\b(OPEN)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # PAD function
-    'match': '\\b((?i)PAD)\\b'
+    'match': '\\b(PAD)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # PALETTE function
-    'match': '\\b((?i)PALETTE)\\b'
+    'match': '\\b(PALETTE)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # PEEK function
-    'match': '\\b((?i)PEEK(D|W)?)\\b'
+    'match': '\\b(PEEK(D|W)?)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # PLAY function
-    'match': '\\b((?i)PLAY)\\b'
+    'match': '\\b(PLAY)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # PLOT function
-    'match': '\\b((?i)PLOT( MAP)?)\\b'
+    'match': '\\b(PLOT( MAP)?)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # POINT function
-    'match': '\\b((?i)POINT)\\b'
+    'match': '\\b(POINT)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # POKE function
-    'match': '\\b((?i)POKE(D|W)?)\\b'
+    'match': '\\b(POKE(D|W)?)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # POP function
-    'match': '\\b((?i)POP(B|F)(\\$|\\b))'
+    'match': '\\b(POP(B|F)(\\$|\\b))'
     'name': 'entity.name.function.bebasic'
   }
   { # POS function
-    'match': '\\b((?i)POS)\\b'
+    'match': '\\b(POS)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # PREPEND function
-    'match': '\\b((?i)PREPEND)\\b'
+    'match': '\\b(PREPEND)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # PRINT function
-    'match': '\\b((?i)PRINT)\\b'
+    'match': '\\b(PRINT)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # PROC function
-    'match': '\\b((?i)PROC)\\b'
+    'match': '\\b(PROC)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # PROFILE function
-    'match': '\\b((?i)PROFILE)\\b'
+    'match': '\\b(PROFILE)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # PSET function
-    'match': '\\b((?i)PSET)\\b'
+    'match': '\\b(PSET)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # PSIZE function
-    'match': '\\b((?i)PSIZE)\\b'
+    'match': '\\b(PSIZE)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # READ function
-    'match': '\\b((?i)READ)\\b'
+    'match': '\\b(READ)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # RECT function
-    'match': '\\b((?i)RECT)\\b'
+    'match': '\\b(RECT)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # REDRAW function
-    'match': '\\b((?i)REDRAW)\\b'
+    'match': '\\b(REDRAW)\\b'
     'name': 'entity.name.function.bebasic'
   }
+  { # REM command (comments)
+    'match': '(REM.*(\\n|$))'
+    'name': 'comment.line.bebasic'
+  }
   { # REMOVE function
-    'match': '\\b((?i)REMOVE)\\b'
+    'match': '\\b(REMOVE)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # RENAME function
-    'match': '\\b((?i)RENAME)\\b'
+    'match': '\\b(RENAME)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # RENUM function
-    'match': '\\b((?i)RENUM)\\b'
+    'match': '\\b(RENUM)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # RESTORE function
-    'match': '\\b((?i)RESTORE)\\b'
+    'match': '\\b(RESTORE)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # RESUME function
-    'match': '\\b((?i)RESUME)\\b'
+    'match': '\\b(RESUME)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # RET$ function
-    'match': '\\b((?i)RET(\\$|\\b))'
+    'match': '\\b(RET(\\$|\\b))'
     'name': 'entity.name.function.bebasic'
   }
   { # RETURN function
-    'match': '\\b((?i)RETURN)\\b'
+    'match': '\\b(RETURN)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # RGB function
-    'match': '\\b((?i)RGB)\\b'
+    'match': '\\b(RGB)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # RIGHT$ function
-    'match': '\\b((?i)RIGHT(\\$|\\b)'
+    'match': '\\b(RIGHT(\\$|\\b))'
     'captures':
       '1':
         'name': 'entity.other.attribute-name.bebasic'
@@ -525,171 +533,203 @@
     'name': 'meta.entity.other.attribute-name.bebasic'
   }
   { # RMDIR function
-    'match': '\\b((?i)RMDIR)\\b'
+    'match': '\\b(RMDIR)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # RND function
-    'match': '\\b((?i)RND)\\b'
+    'match': '\\b(RND)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # RUN function
-    'match': '\\b((?i)RUN)\\b'
+    'match': '\\b(RUN)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # SAVE function
-    'match': '\\b((?i)SAVE( BG| CONFIG| PCX)?)\\b'
+    'match': '\\b(SAVE( BG| CONFIG| PCX)?)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # SAY function
-    'match': '\\b((?i)SAY)\\b'
+    'match': '\\b(SAY)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # SCREEN function
-    'match': '\\b((?i)SCREEN)\\b'
+    'match': '\\b(SCREEN)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # SEEK function
-    'match': '\\b((?i)SEEK)\\b'
+    'match': '\\b(SEEK)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # SET DATE function
-    'match': '\\b((?i)SET DATE)\\b'
+    'match': '\\b(SET DATE)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # SGN function
-    'match': '\\b((?i)SGN)\\b'
+    'match': '\\b(SGN)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # SIN function
-    'match': '\\b((?i)SIN)\\b'
+    'match': '\\b(SIN)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # SMODE function
-    'match': '\\b((?i)SMODE)\\b'
+    'match': '\\b(SMODE)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # SOUND function
-    'match': '\\b((?i)SOUND( FONT)?)\\b'
+    'match': '\\b(SOUND( FONT)?)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # SPR function
-    'match': '\\b((?i)SPR(COLL|X|Y))\\b'
+    'match': '\\b(SPR(COLL|X|Y))\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # SPRITE function
-    'match': '\\b((?i)SPRITE)\\b'
+    'match': '\\b(SPRITE)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # SQR function
-    'match': '\\b((?i)SQR)\\b'
+    'match': '\\b(SQR)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # SREAD function
-    'match': '\\b((?i)SREAD)\\b'
+    'match': '\\b(SREAD)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # SREADY function
-    'match': '\\b((?i)SREADY)\\b'
+    'match': '\\b(SREADY)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # STOP function
-    'match': '\\b((?i)STOP)\\b'
+    'match': '\\b(STOP)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # STR$ function
-    'match': '\\b((?i)STR(\\$|\\b))'
+    'match': '\\b(STR(\\$|\\b))'
     'name': 'entity.name.function.bebasic'
   }
   { # STRING$ function
-    'match': '\\b((?i)STRING(\\$|\\b))'
+    'match': '\\b(STRING(\\$|\\b))'
     'name': 'entity.name.function.bebasic'
   }
   { # SWRITE function
-    'match': '\\b((?i)SWRITE)\\b'
+    'match': '\\b(SWRITE)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # SYS function
-    'match': '\\b((?i)SYS(INFO)?)\\b'
+    'match': '\\b(SYS(INFO)?)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # TAN function
-    'match': '\\b((?i)TAN)\\b'
+    'match': '\\b(TAN)\\b'
     'name': 'entity.name.function.bebasic'
   }
+  { # THEN command
+    'match': '\\b(THEN)'
+    'name': 'keyword.control.bebasic'
+  }
   { # TICK function
-    'match': '\\b((?i)TICK)\\b'
+    'match': '\\b(TICK)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # TILECOLL function
-    'match': '\\b((?i)TILECOLL)\\b'
+    'match': '\\b(TILECOLL)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # TYPE function
-    'match': '\\b((?i)TYPE)\\b'
+    'match': '\\b(TYPE)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # VAL function
-    'match': '\\b((?i)VAL)\\b'
+    'match': '\\b(VAL)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # VPEEK function
-    'match': '\\b((?i)VPEEK)\\b'
+    'match': '\\b(VPEEK)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # VPOKE function
-    'match': '\\b((?i)VPOKE)\\b'
+    'match': '\\b(VPOKE)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # VREG function
-    'match': '\\b((?i)VREG)\\b'
+    'match': '\\b(VREG)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # VSYNC function
-    'match': '\\b((?i)VSYNC)\\b'
+    'match': '\\b(VSYNC)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # WAIT function
-    'match': '\\b((?i)WAIT)\\b'
+    'match': '\\b(WAIT)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # WEND function
-    'match': '\\b((?i)WEND)\\b'
+    'match': '\\b(WEND)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # WHILE function
-    'match': '\\b((?i)WHILE)\\b'
+    'match': '\\b(WHILE)\\b'
     'name': 'keyword.control.bebasic'
   }
   { # WINDOW function
-    'match': '\\b((?i)WINDOW)\\b'
+    'match': '\\b(WINDOW)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # XYZZY function
-    'match': '\\b((?i)XYZZY)\\b'
+    'match': '\\b(XYZZY)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # DOWN value
-    'match': '\\b((?i)DOWN)\\b'
+    'match': '\\b(DOWN)\\b'
     'name': 'entity.other.attribute-name.bebasic'
   }
   { # UP value
-    'match': '\\b((?i)UP)\\b'
+    'match': '\\b(UP)\\b'
     'name': 'entity.other.attribute-name.bebasic'
   }
   # { # LEFT value
-  #   'match': '\\b((?i)LEFT)\\b'
+  #   'match': '\\b(LEFT)\\b'
   #   'name': 'entity.other.attribute-name.bebasic'
   # }
   # { # RIGHT value
-  #   'match': '\\b((?i)RIGHT)\\b'
+  #   'match': '\\b(RIGHT)\\b'
   #   'name': 'entity.other.attribute-name.bebasic'
   # }
-  { # FN call
-    'match': '\\b((?i)FN)\\b'
+  { # TILES value
+    'match': '\\b(TILES)\\b'
+    'name': 'entity.other.attribute-name.bebasic'
+  }
+  { # SIZE value
+    'match': '\\b(SIZE)\\b'
+    'name': 'entity.other.attribute-name.bebasic'
+  }
+  { # FLAGS value
+    'match': '\\b(FLAGS)\\b'
+    'name': 'entity.other.attribute-name.bebasic'
+  }
+  { # PATTERN value
+    'match': '\\b(PATTERN)\\b'
+    'name': 'entity.other.attribute-name.bebasic'
+  }
+  { # AS value
+    'match': '\\b(AS)\\b'
     'name': 'keyword.other.bebasic'
   }
-  { # INKEY call
-    'match': '\\b((?i)INKEY(\\$|\\b))'
+  { # ON value
+  'match': '\\b(ON)\\b'
+  'name': 'keyword.other.bebasic'
+  }
+  { # TO value
+    'match': '\\b(TO)\\b'
+    'name': 'keyword.other.bebasic'
+  }
+  { # UNTIL value
+    'match': '\\b(UNTIL)\\b'
+    'name': 'keyword.other.bebasic'
+  }
+  { # FN call
+    'match': '\\b(FN)\\b'
     'name': 'keyword.other.bebasic'
   }
 ]
