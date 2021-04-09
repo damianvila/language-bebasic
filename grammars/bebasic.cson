@@ -407,6 +407,10 @@
     'match': '\\b((?i)MOVE( BG| SPRITE))\\b'
     'name': 'entity.name.function.bebasic'
   }
+  { # NET function
+    'match': '\\b((?i)NET)\\b'
+    'name': 'entity.name.function.bebasic'
+  }
   { # NEW function
     'match': '\\b((?i)NEW)\\b'
     'name': 'entity.name.function.bebasic'
@@ -636,6 +640,18 @@
     'match': '\\b((?i)TAN)\\b'
     'name': 'entity.name.function.bebasic'
   }
+  { # TFTPD command
+    'match': '\\b((?i)TFTPD)'
+    'name': 'keyword.control.bebasic'
+  }
+  { # TFTPGET command
+    'match': '\\b((?i)TFTPGET)'
+    'name': 'keyword.control.bebasic'
+  }
+  { # TFTPPUT command
+    'match': '\\b((?i)TFTPPUT)'
+    'name': 'keyword.control.bebasic'
+  }
   { # THEN command
     'match': '\\b((?i)THEN)'
     'name': 'keyword.control.bebasic'
@@ -680,6 +696,10 @@
     'match': '\\b((?i)WEND)\\b'
     'name': 'entity.name.function.bebasic'
   }
+  { # WGET function
+    'match': '\\b((?i)WGET)\\b'
+    'name': 'entity.name.function.bebasic'
+  }
   { # WHILE function
     'match': '\\b((?i)WHILE)\\b'
     'name': 'keyword.control.bebasic'
@@ -700,14 +720,6 @@
     'match': '\\b((?i)UP)\\b'
     'name': 'entity.other.attribute-name.bebasic'
   }
-  # { # LEFT value
-  #   'match': '\\b((?i)LEFT)\\b'
-  #   'name': 'entity.other.attribute-name.bebasic'
-  # }
-  # { # RIGHT value
-  #   'match': '\\b((?i)RIGHT)\\b'
-  #   'name': 'entity.other.attribute-name.bebasic'
-  # }
   { # TILES value
     'match': '\\b((?i)TILES)\\b'
     'name': 'entity.other.attribute-name.bebasic'
@@ -730,6 +742,10 @@
   }
   { # ON value
   'match': '\\b((?i)ON)\\b'
+  'name': 'keyword.other.bebasic'
+  }
+  { # OFF value
+  'match': '\\b((?i)OFF)\\b'
   'name': 'keyword.other.bebasic'
   }
   { # TO value
