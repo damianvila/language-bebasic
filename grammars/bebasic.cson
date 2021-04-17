@@ -54,6 +54,10 @@
   #   'match': '\\b((?i)[A-Z]+\\$?)\\s*\\(\\)'
   #   'name': 'invalid.illegal.bebasic'
   # }
+  { # ' comments (comments)
+    'match': '((REM|\\\').*(\\n|$))'
+    'name': 'comment.line.bebasic'
+  }
   { # ABS function
     'match': '\\b((?i)ABS)\\b'
     'name': 'entity.name.function.bebasic'
@@ -499,10 +503,10 @@
     'match': '\\b((?i)REDRAW)\\b'
     'name': 'entity.name.function.bebasic'
   }
-  { # REM command (comments)
-    'match': '(REM.*(\\n|$))'
-    'name': 'comment.line.bebasic'
-  }
+  # { # REM command (comments)
+  #   'match': '(REM.*(\\n|$))'
+  #   'name': 'comment.line.bebasic'
+  # }
   { # REMOVE function
     'match': '\\b((?i)REMOVE)\\b'
     'name': 'entity.name.function.bebasic'
@@ -557,7 +561,7 @@
     'name': 'entity.name.function.bebasic'
   }
   { # SAVE function
-    'match': '\\b((?i)SAVE( BG| CONFIG| PCX)?)\\b'
+    'match': '\\b((?i)SAVE( BG| CONFIG| PCX| IMAGE)?)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # SAY function
