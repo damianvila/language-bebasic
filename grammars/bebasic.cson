@@ -2,10 +2,6 @@
 'name': 'Basic Engine BASIC'
 'fileTypes': ['bas', 'basic']
 'patterns': [
-  # { # lines that do not begin with a line number are marked invalid
-  #   'match': '^\\D+'
-  #   'name': 'invalid.illegal.bebasic'
-  # }
   { # numeric constants, which may include scientific notation
     'match': '(^\\d+)|(\\b(([0-9]+(\\.|\\s*E\\s*)?[0-9]*)|(\\.[0-9]+))\\b)'
     'captures':
@@ -50,11 +46,7 @@
     'match': '\\b((?i)OR)'
     'name': 'keyword.operator.bebasic'
   }
-  # { # functions without arguments are invalid
-  #   'match': '\\b((?i)[A-Z]+\\$?)\\s*\\(\\)'
-  #   'name': 'invalid.illegal.bebasic'
-  # }
-  { # ' comments (comments)
+  { # ' or REM comments (comments)
     'match': '((REM|\\\').*(\\n|$))'
     'name': 'comment.line.bebasic'
   }
@@ -78,6 +70,10 @@
     'match': '\\b((?i)ARG(\\$|C)?)\\b'
     'name': 'entity.name.function.bebasic'
   }
+  { # ASC function
+    'match': '\\b((?i)ASC(\\$|C)?)\\b'
+    'name': 'entity.name.function.bebasic'
+  }
   { # ATN function
     'match': '\\b((?i)ATN(2)?)\\b'
     'name': 'entity.name.function.bebasic'
@@ -94,12 +90,28 @@
     'match': '\\b((?i)BIN(\\$|\\b))'
     'name': 'entity.name.function.bebasic'
   }
+  { # BLEFT$ function
+    'match': '\\b((?i)BLEFT(\\$|\\b))'
+    'name': 'entity.name.function.bebasic'
+  }
+  { # BLEN function
+    'match': '\\b((?i)BLEN)\\b'
+    'name': 'entity.name.function.bebasic'
+  }
   { # BLIT function
     'match': '\\b((?i)BLIT)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # BLOAD function
     'match': '\\b((?i)BLOAD)\\b'
+    'name': 'entity.name.function.bebasic'
+  }
+  { # BMID$ function
+    'match': '\\b((?i)BMID(\\$|\\b))'
+    'name': 'entity.name.function.bebasic'
+  }
+  { # BRIGHT$ function
+    'match': '\\b((?i)BRIGHT(\\$|\\b))'
     'name': 'entity.name.function.bebasic'
   }
   { # BOOT function
@@ -180,6 +192,10 @@
   }
   { # COS function
     'match': '\\b((?i)COS)\\b'
+    'name': 'entity.name.function.bebasic'
+  }
+  { # CPUSPEED function
+    'match': '\\b((?i)CPUSPEED)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # CREDITS function
@@ -282,6 +298,10 @@
     'match': '\\b((?i)GET( DATE| TIME))\\b'
     'name': 'entity.name.function.bebasic'
   }
+  { # GETSYM function
+    'match': '\\b((?i)GETSYM)\\b'
+    'name': 'entity.name.function.bebasic'
+  }
   { # GOSUB function
     'match': '\\b((?i)GOSUB)\\b'
     'name': 'entity.name.function.bebasic'
@@ -368,7 +388,7 @@
     'name': 'entity.name.function.bebasic'
   }
   { # LOAD function
-    'match': '\\b((?i)LOAD( BG| PCX)?)\\b'
+    'match': '\\b((?i)LOAD( BG| PCX| IMAGE| FONT)?)\\b'
     'name': 'entity.name.function.bebasic'
   }
   { # LOC function
@@ -440,7 +460,7 @@
     'name': 'entity.name.function.bebasic'
   }
   { # PEEK function
-    'match': '\\b((?i)PEEK(D|W)?)\\b'
+    'match': '\\b((?i)PEEK(D|W|\\$|\\b))'
     'name': 'entity.name.function.bebasic'
   }
   { # PLAY function
@@ -456,7 +476,7 @@
     'name': 'entity.name.function.bebasic'
   }
   { # POKE function
-    'match': '\\b((?i)POKE(D|W)?)\\b'
+    'match': '\\b((?i)POKE(D|W|\\$|\\b))'
     'name': 'entity.name.function.bebasic'
   }
   { # POP function
@@ -503,10 +523,6 @@
     'match': '\\b((?i)REDRAW)\\b'
     'name': 'entity.name.function.bebasic'
   }
-  # { # REM command (comments)
-  #   'match': '(REM.*(\\n|$))'
-  #   'name': 'comment.line.bebasic'
-  # }
   { # REMOVE function
     'match': '\\b((?i)REMOVE)\\b'
     'name': 'entity.name.function.bebasic'
@@ -644,6 +660,14 @@
     'match': '\\b((?i)TAN)\\b'
     'name': 'entity.name.function.bebasic'
   }
+  { # TCC command
+    'match': '\\b((?i)TCC)'
+    'name': 'keyword.control.bebasic'
+  }
+  { # TCCLINK command
+    'match': '\\b((?i)TCCLINK)'
+    'name': 'keyword.control.bebasic'
+  }
   { # TFTPD command
     'match': '\\b((?i)TFTPD)'
     'name': 'keyword.control.bebasic'
@@ -758,6 +782,10 @@
   }
   { # UNTIL value
     'match': '\\b((?i)UNTIL)\\b'
+    'name': 'keyword.other.bebasic'
+  }
+  { # USING value
+    'match': '\\b((?i)USING)\\b'
     'name': 'keyword.other.bebasic'
   }
   { # FN call
